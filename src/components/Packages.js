@@ -1,10 +1,5 @@
 import React from "react"
-
-const Package = ({ name, event }) => {
-	return (
-		<li><button onClick={() => event(name)}>{name}</button></li>
-	)
-}
+import Package from "./Package"
 
 const Packages = ({ packages, event }) => {
 	packages.sort((a, b) => {
@@ -12,7 +7,7 @@ const Packages = ({ packages, event }) => {
 	})
 	const rows = () => packages.map(pack => {
 		return (
-			<Package name={pack.Package} event={event}/>
+			<li><Package name={pack.Package} event={event}/></li>
 		)
 	})
 	if (rows().length === 0) {
