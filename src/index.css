@@ -2,25 +2,44 @@ body {
 	background-color: #e8e8e8;
 }
 
-.container {
-	width: 100%;
-}
-
 button {
     background: none;
 	color: inherit;
-	width: 100%;
     border: none;
     font: inherit;
     cursor: pointer;
 	outline: inherit;
 	text-align: left;
 }
+button:hover {
+	text-decoration: underline;
+	background-color: #c5d2de;
+}
+
+.sidebar button {
+	width: 100%;
+}
 
 .info {
 	width: auto;
-	overflow: hidden;
+	max-width: 600px;
+	margin-left: 229px;
+	margin-right: 20px;
 	padding-left: 20px;
+	position: fixed;
+	top: 50px;
+}
+
+.depends {
+	width: 50%;
+	height: 40vh;
+	float: left;
+	/* overflow: auto; */
+}
+
+.depends .packages {
+	height: 100%;
+	overflow: auto;
 }
 
 .sidebar {
@@ -33,15 +52,8 @@ button {
 li {
 	list-style-type: none;
 }
-li:hover {
-	background-color: #c5d2de;
-}
-
 
 p {
 	padding: 0;
+	margin: 0;
 }
-
-/* @media (max-width: 900px) {
-
-} */
