@@ -1,7 +1,7 @@
 # Reaktor 2020 Junior (frontend)
 
-This repo serves the frontend of the [**reaktor-junior-2020**](https://github.com/nikunicke/reaktor-junior-2020) project.
-Read more about the assignment [**here**](https://www.reaktor.com/junior-dev-assignment/)(07.02.2020)
+This repo is the frontend of the [**reaktor-junior-2020**](https://github.com/nikunicke/reaktor-junior-2020) project.
+Read more about the assignment [**here**](https://www.reaktor.com/junior-dev-assignment/) (07.02.2020)
 
 Components include:
 *	Package.js
